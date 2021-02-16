@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<?import View.MazeDisplayer?>
+<AnchorPane fx:id="mainAnchorPane" prefHeight="512.0" prefWidth="648.0" stylesheets="@MainCSS.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.MyViewController">
+    <children>
+      <AnchorPane fx:id="anchorPane_save" layoutX="200.0" layoutY="189.0" prefHeight="211.0" prefWidth="250.0" styleClass="bodybg" stylesheets="@/wily.css">
+         <children>
+            <VBox layoutY="-1.0" prefHeight="187.0" prefWidth="250.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Maze Name:">
+                     <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                     </font>
+                  </Text>
+                  <TextField fx:id="textField_save" prefHeight="13.0" prefWidth="250.0">
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Button fx:id="button_ok_save" mnemonicParsing="false" text="Ok">
+                     <VBox.margin>
+                        <Insets left="95.0" top="5.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="button_cancel_save" mnemonicParsing="false" text="Cancel">
+                     <VBox.margin>
+                        <Insets left="85.0" top="5.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+        <MenuBar fx:id="menuBar_main" layoutY="1.0" prefHeight="25.0" prefWidth="602.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+            <menus>
+                <Menu fx:id="menu_file" mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem fx:id="menu_new" mnemonicParsing="false" onAction="#menuAction" text="New" />
+                        <MenuItem fx:id="menu_save" mnemonicParsing="false" onAction="#menuAction" text="Save" />
+                        <MenuItem fx:id="menu_load" mnemonicParsing="false" onAction="#menuAction" text="Load" />
+                    </items>
+                </Menu>
+                <Menu fx:id="menu_options" mnemonicParsing="false" text="Options">
+                    <items>
+                        <MenuItem fx:id="menu_properties" mnemonicParsing="false" onAction="#menuAction" text="Properties" />
+                        <MenuItem fx:id="menu_settings" mnemonicParsing="false" onAction="#menuAction" text="Settings" />
+                    </items>
+                </Menu>
+                <Menu fx:id="menu_help" mnemonicParsing="false">
+                    <graphic>
+                        <Label fx:id="menuLabel_help" text="Help" />
+                    </graphic></Menu>
+                <Menu fx:id="menu_about" mnemonicParsing="false">
+                    <graphic>
+                        <Label fx:id="menuLabel_about" onMouseClicked="#mouseEvents" prefHeight="17.0" prefWidth="38.0" text="About" />
+                    </graphic></Menu>
+                <Menu fx:id="menu_exit" mnemonicParsing="false">
+                    <graphic>
+                        <Label fx:id="menuLabel_exit" onMouseClicked="#closeProgram" prefHeight="79.0" prefWidth="25.0" text="Exit" />
+                    </graphic>
+                </Menu>
+            </menus>
+            <effect>
+                <DropShadow color="#8c0324" radius="20.564999999999998" width="63.26" />
+            </effect>
+        </MenuBar>
+        <AnchorPane fx:id="anchorPane_about" layoutY="26.0" prefHeight="699.0" prefWidth="740.0" styleClass="bodybg" stylesheets="@/mario.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="26.0">
+            <children>
+                <Button fx:id="button_mainScreen" mnemonicParsing="false" onAction="#menuAction" text="Main Screen" />
+            </children></AnchorPane>
+        <AnchorPane fx:id="anchorPane_settings" layoutY="26.0" prefHeight="646.0" prefWidth="665.0" styleClass="bodybg" stylesheets="@/timon.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="26.0">
+            <children>
+                <TabPane fx:id="tabPane_settings" prefHeight="646.0" prefWidth="648.0" tabClosingPolicy="UNAVAILABLE">
+                    <tabs>
+                        <Tab fx:id="tab_sound" text="Sound">
+                            <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="617.0" prefWidth="719.0">
+                                    <children>
+                                        <Text layoutX="241.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mute">
+                                            <font>
+                                                <Font name="System Bold Italic" size="14.0" />
+                                            </font>
+                                        </Text>
+                                        <Text layoutX="241.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Volume">
+                                            <font>
+                                                <Font name="System Bold Italic" size="14.0" />
+                                            </font>
+                                        </Text>
+                                        <Text layoutX="244.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Music">
+                                            <font>
+                                                <Font name="System Bold Italic" size="14.0" />
+                                            </font>
+                                        </Text>
+                                        <Slider fx:id="slider_volume" layoutX="312.0" layoutY="227.0" />
+                                        <CheckBox fx:id="checkBox_mute" layoutX="314.0" layoutY="184.0" mnemonicParsing="false" onAction="#menuAction" />
+                                        <ComboBox fx:id="comboBox_music" layoutX="314.0" layoutY="268.0" prefWidth="150.0" />
+                                        <Button fx:id="button_mainScreen" layoutX="583.0" layoutY="2.0" mnemonicParsing="false" onAction="#menuAction" text="Main Screen" />
+                                    </children>
+                                </AnchorPane>
+                            </content>
+                        </Tab>
+                        <Tab fx:id="tab_character" text="Character">
+                            <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                            </content>
+                        </Tab>
+                    </tabs>
+                </TabPane>
+            </children>
+        </AnchorPane>
+        <AnchorPane fx:id="anchorPane_load" layoutY="26.0" prefHeight="646.0" prefWidth="648.0" styleClass="bodybg" stylesheets="@/load.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="26.0">
+            <children>
+                <ComboBox fx:id="comboBox_loadMaze" layoutX="324.0" layoutY="212.0" prefHeight="20.0" prefWidth="150.0" promptText="Choose a maze" />
+                <Text fill="WHITE" layoutX="196.0" layoutY="231.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Load Maze:">
+                    <font>
+                        <Font name="System Bold Italic" size="18.0" />
+                    </font>
+                </Text>
+                <Button fx:id="button_mainScreen" layoutX="582.0" layoutY="32.0" mnemonicParsing="false" onAction="#menuAction" text="Main Screen" />
+            <Button fx:id="button_loadTheMaze" layoutX="324.0" layoutY="270.0" mnemonicParsing="false" onAction="#menuAction" text="Load The Maze!" />
+            </children>
+        </AnchorPane>
+        <AnchorPane fx:id="anchorPane_solve" layoutY="26.0" prefHeight="800.0" prefWidth="740.0" styleClass="bodybg" stylesheets="@/solve.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="26.0">
+            <children>
+                <Button fx:id="button_generateNewMaze" layoutX="43.0" layoutY="416.0" mnemonicParsing="false" onAction="#generateAndSolveListeners" text="Generate a new maze" />
+                <Button fx:id="button_solve" layoutX="36.0" layoutY="159.0" mnemonicParsing="false" onAction="#generateAndSolveListeners" text="Solve for me please!" />
+                <AnchorPane fx:id="anchorPane_maze" layoutX="225.0" layoutY="65.0" prefHeight="389.0" prefWidth="438.0" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="40.0">
+                    <children>
+                        <MazeDisplayer fx:id="mazeDisplayer" height="400.0" onKeyPressed="#keyPressed" width="400.0"
+                                       imageFileNameGoal="resources\\basket.png"
+                                       imageFileNamePlayer="resources\\dekel3.png"
+                                       imageFileNameStart = "resources\\start.png"/>
+                    </children></AnchorPane>
+            <ComboBox fx:id="comboBox_solveAlgo" layoutX="36.0" layoutY="111.0" onAction="#generateAndSolveListeners" prefWidth="150.0" promptText="Solving algorithm:" />
+            </children>
+        </AnchorPane>
+        <AnchorPane fx:id="anchorPane_mazeGenerate" layoutY="26.0" prefHeight="487.0" prefWidth="648.0" styleClass="bodybg" stylesheets="@/spaceJam.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="26.0">
+            <children>
+                <Text fill="WHITE" layoutX="44.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Number Of Rows:">
+                    <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                    </font>
+                </Text>
+                <Text fill="WHITE" layoutX="44.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Number Of Columns:">
+                    <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                    </font>
+                </Text>
+                <TextField fx:id="textField_row" layoutX="199.0" layoutY="147.0" />
+                <TextField fx:id="textField_col" layoutX="199.0" layoutY="187.0" />
+                <Text fill="WHITE" layoutX="37.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Generating Algorithm: ">
+                    <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                    </font>
+                </Text>
+                <ComboBox fx:id="comboBox_generateMaze" layoutX="199.0" layoutY="223.0" onAction="#generateAndSolveListeners" prefWidth="150.0" />
+                <Button fx:id="button_generate" layoutX="158.0" layoutY="331.0" mnemonicParsing="false" onAction="#generateAndSolveListeners" text="Generate!" />
+                <Button fx:id="button_mainScreen" layoutX="583.0" layoutY="32.0" mnemonicParsing="false" onAction="#menuAction" text="Main Screen" />
+                <Button fx:id="button_player1" layoutX="76.0" layoutY="279.0" mnemonicParsing="false" text="Button" onAction="#playerAction" />
+                <Button fx:id="button_player2" layoutX="163.0" layoutY="279.0" mnemonicParsing="false" text="Button" onAction="#playerAction"/>
+                <Button fx:id="button_player3" layoutX="251.0" layoutY="279.0" mnemonicParsing="false" text="Button" onAction="#playerAction"/>
+            </children>
+        </AnchorPane>
+      <BorderPane fx:id="anchorPane_options" layoutX="127.0" layoutY="165.0" prefHeight="305.0" prefWidth="463.0" styleClass="bodybg" stylesheets="@/matrixCSS.css">
+         <top>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Game Properties" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+            </Text>
+         </top>
+         <center>
+            <GridPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="156.0" prefWidth="271.0" BorderPane.alignment="CENTER">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label fx:id="label_threadPoolSize" text="Thread Pool Size:" textFill="#f5f2f2">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_generateAlgo" text="Generating Algorithm:" textFill="WHITE" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_searchAlgo" text="Searching Algorithm:" textFill="WHITE" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_threadSizeValue" text="3" textFill="WHITE" GridPane.columnIndex="1">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="label_generatorType" text="Label" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="label_searchingType" text="Label" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </GridPane>
+         </center>
+         <bottom>
+            <Button fx:id="button_closeProperties" mnemonicParsing="false" onAction="#menuAction" text="X" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets bottom="10.0" />
+               </BorderPane.margin>
+            </Button>
+         </bottom>
+      </BorderPane>
+        <AnchorPane fx:id="anchorPane_front" layoutY="26.0" prefHeight="699.0" prefWidth="740.0" styleClass="bodybg" stylesheets="@/front.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="26.0">
+            <children>
+                <Text fill="WHITE" layoutX="14.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Think you're smart enough?!? try to play and solve those tough mazes yourself!" wrappingWidth="269.1367246210575" AnchorPane.bottomAnchor="360.7578125" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="318.8632753789425" AnchorPane.topAnchor="87.0">
+                    <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                    </font>
+                </Text>
+                <Text fill="WHITE" layoutX="19.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello player! Welcome to our 90's Maze game. " wrappingWidth="312.4700927734375" AnchorPane.bottomAnchor="440.7578125" AnchorPane.leftAnchor="19.0" AnchorPane.rightAnchor="270.5299072265625" AnchorPane.topAnchor="27.0">
+                    <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                    </font>
+                </Text>
+                <Text fill="WHITE" layoutX="14.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="In our world, you will be able to create and solve mazes by few different algorithms." wrappingWidth="291.5670173764229" AnchorPane.bottomAnchor="400.7578125" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="296.4329826235771" AnchorPane.topAnchor="47.0">
+                    <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                    </font>
+                </Text>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

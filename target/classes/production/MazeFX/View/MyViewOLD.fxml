@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<?import ViewModel.MyViewModel?>
+<AnchorPane fx:id="mainAnchorPane" prefHeight="512.0" prefWidth="648.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.MyViewController">
+    <children>
+        <MenuBar fx:id="menuBar_main" layoutY="1.0" prefHeight="25.0" prefWidth="602.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+            <menus>
+                <Menu fx:id="menu_file" mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem fx:id="menu_new" mnemonicParsing="false" onAction="#menuAction" text="New" />
+                        <SeparatorMenuItem mnemonicParsing="false" />
+                        <MenuItem fx:id="menu_save" mnemonicParsing="false" onAction="#menuAction" text="Save" />
+                        <SeparatorMenuItem mnemonicParsing="false" />
+                        <MenuItem fx:id="menu_load" mnemonicParsing="false" onAction="#menuAction" text="Load" />
+                    </items>
+                </Menu>
+                <Menu fx:id="menu_options" mnemonicParsing="false" text="Options">
+                    <items>
+                        <MenuItem fx:id="menu_properties" mnemonicParsing="false" text="Properties" />
+                        <SeparatorMenuItem mnemonicParsing="false" />
+                        <MenuItem fx:id="menu_settings" mnemonicParsing="false" onAction="#menuAction" text="Settings" />
+                    </items>
+                </Menu>
+                <Menu fx:id="menu_help" mnemonicParsing="false">
+                    <graphic>
+                        <Label fx:id="menuLabel_help" text="Help" />
+                    </graphic></Menu>
+                <Menu fx:id="menu_about" mnemonicParsing="false">
+                    <graphic>
+                        <Label fx:id="menuLabel_about" onMouseClicked="#mouseEvents" prefHeight="17.0" prefWidth="38.0" text="About" />
+                    </graphic></Menu>
+                <Menu fx:id="menu_exit" mnemonicParsing="false">
+                    <graphic>
+                        <Label fx:id="menuLabel_exit" onMouseClicked="#closeProgram" prefHeight="79.0" prefWidth="25.0" text="Exit" />
+                    </graphic>
+                </Menu>
+            </menus>
+            <effect>
+                <DropShadow color="#8c0324" radius="20.564999999999998" width="63.26" />
+            </effect>
+        </MenuBar>
+    </children>
+    <AnchorPane fx:id="anchorPane_about" layoutY="26.0" prefHeight="487.0" prefWidth="648.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="26.0">
+        <children>
+            <ImageView fx:id="image_mario" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@/mario.png" />
+                </image>
+            </ImageView>
+            <Button fx:id="button_mainScreen" mnemonicParsing="false" onAction="#menuAction" text="Main Screen" />
+        </children></AnchorPane>
+    <AnchorPane fx:id="anchorPane_load" layoutY="26.0" prefHeight="646.0" prefWidth="648.0">
+        <children>
+            <ImageView fx:id="image_rayman" fitHeight="363.0" fitWidth="648.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@/rayman.png" />
+                </image>
+            </ImageView>
+            <ComboBox fx:id="comboBox_loadMaze" layoutX="324.0" layoutY="212.0" prefHeight="20.0" prefWidth="150.0" promptText="Choose a maze" />
+            <Text fill="WHITE" layoutX="196.0" layoutY="231.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Load Maze:">
+                <font>
+                    <Font name="System Bold Italic" size="18.0" />
+                </font>
+            </Text>
+            <Button fx:id="button_mainScreen" layoutX="582.0" layoutY="32.0" mnemonicParsing="false" onAction="#menuAction" text="Main Screen" />
+        </children>
+    </AnchorPane>
+    <AnchorPane fx:id="anchorPane_mazeGenerate" layoutY="26.0" prefHeight="487.0" prefWidth="648.0">
+        <children>
+            <ImageView fx:id="image_spaceJam" fitHeight="646.0" fitWidth="648.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@/spaceJam.png" />
+                </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="44.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Number Of Rows:">
+                <font>
+                    <Font name="System Bold Italic" size="14.0" />
+                </font>
+            </Text>
+            <Text fill="WHITE" layoutX="44.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Number Of Columns:">
+                <font>
+                    <Font name="System Bold Italic" size="14.0" />
+                </font>
+            </Text>
+            <TextField fx:id="textField_row" layoutX="199.0" layoutY="147.0" />
+            <TextField fx:id="textField_col" layoutX="199.0" layoutY="187.0" />
+            <Text fill="WHITE" layoutX="37.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Generating Algorithm: ">
+                <font>
+                    <Font name="System Bold Italic" size="14.0" />
+                </font>
+            </Text>
+            <ComboBox fx:id="comboBox_generateMaze" layoutX="199.0" layoutY="223.0" prefWidth="150.0" />
+            <Button fx:id="button_generate" layoutX="163.0" layoutY="287.0" mnemonicParsing="false" onAction="#generateAndSolveListeners" text="Generate!" />
+            <Button fx:id="button_mainScreen" layoutX="583.0" layoutY="32.0" mnemonicParsing="false" onAction="#menuAction" text="Main Screen" />
+        </children>
+    </AnchorPane>
+    <AnchorPane fx:id="anchorPane_settings" layoutY="26.0" prefHeight="646.0" prefWidth="665.0">
+        <children>
+            <ImageView fx:id="image_settings" fitHeight="620.0" fitWidth="648.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@/timon.png" />
+                </image>
+            </ImageView>
+            <TabPane fx:id="tabPane_settings" prefHeight="646.0" prefWidth="648.0" tabClosingPolicy="UNAVAILABLE">
+                <tabs>
+                    <Tab fx:id="tab_sound" text="Sound">
+                        <content>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="617.0" prefWidth="719.0">
+                                <children>
+                                    <Text layoutX="241.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mute">
+                                        <font>
+                                            <Font name="System Bold Italic" size="14.0" />
+                                        </font>
+                                    </Text>
+                                    <Text layoutX="241.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Volume">
+                                        <font>
+                                            <Font name="System Bold Italic" size="14.0" />
+                                        </font>
+                                    </Text>
+                                    <Text layoutX="244.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Music">
+                                        <font>
+                                            <Font name="System Bold Italic" size="14.0" />
+                                        </font>
+                                    </Text>
+                                    <Slider fx:id="slider_volume" layoutX="312.0" layoutY="227.0" />
+                                    <CheckBox fx:id="checkBox_mute" layoutX="314.0" layoutY="184.0" mnemonicParsing="false" onAction="#menuAction" />
+                                    <ComboBox fx:id="comboBox_music" layoutX="314.0" layoutY="268.0" prefWidth="150.0" />
+                                    <Button fx:id="button_mainScreen" layoutX="583.0" layoutY="2.0" mnemonicParsing="false" onAction="#menuAction" text="Main Screen" />
+                                </children>
+                            </AnchorPane>
+                        </content>
+                    </Tab>
+                    <Tab fx:id="tab_character" text="Character">
+                        <content>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                        </content>
+                    </Tab>
+                </tabs>
+            </TabPane>
+        </children>
+    </AnchorPane>
+    <AnchorPane fx:id="anchorPane_front" layoutY="26.0" prefHeight="646.0" prefWidth="664.0">
+        <children>
+            <ImageView fx:id="image_90s" fitHeight="529.0" fitWidth="866.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@/90s.png" />
+                </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="14.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Think you're smart enough?!? try to play and solve those tough mazes yourself!" wrappingWidth="269.1367246210575" AnchorPane.bottomAnchor="360.7578125" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="318.8632753789425" AnchorPane.topAnchor="87.0">
+                <font>
+                    <Font name="System Bold Italic" size="14.0" />
+                </font>
+            </Text>
+            <Text fill="WHITE" layoutX="19.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello player! Welcome to our 90's Maze game. " wrappingWidth="312.4700927734375" AnchorPane.bottomAnchor="440.7578125" AnchorPane.leftAnchor="19.0" AnchorPane.rightAnchor="270.5299072265625" AnchorPane.topAnchor="27.0">
+                <font>
+                    <Font name="System Bold Italic" size="14.0" />
+                </font>
+            </Text>
+            <Text fill="WHITE" layoutX="14.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="In our world, you will be able to create and solve mazes by few different algorithms." wrappingWidth="291.5670173764229" AnchorPane.bottomAnchor="400.7578125" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="296.4329826235771" AnchorPane.topAnchor="47.0">
+                <font>
+                    <Font name="System Bold Italic" size="14.0" />
+                </font>
+            </Text>
+        </children>
+    </AnchorPane>
+    <AnchorPane fx:id="anchorPane_solve" layoutY="26.0" prefHeight="699.0" prefWidth="666.0">
+        <children>
+
+            <ImageView fx:id="image_solve" fitHeight="374.0" fitWidth="674.0" layoutX="1.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@/sole.png" />
+                </image>
+            </ImageView>
+            <Button fx:id="button_generateNewMaze" layoutX="36.0" layoutY="148.0" mnemonicParsing="false" onAction="#generateAndSolveListeners" text="Generate a new maze" />
+            <Button fx:id="button_solve" layoutX="36.0" layoutY="98.0" mnemonicParsing="false" onAction="#generateAndSolveListeners" text="Solve for me please!" />
+            <BorderPane fx:id="pane_mazeDraw" layoutX="255.0" layoutY="127.0" prefHeight="300.0" prefWidth="369.0" >
+                <children>
+                    <MyViewModel fx:id="MyViewModel" height="296.0" width="340.0"/>
+                </children>
+            </BorderPane>
+        </children>
+    </AnchorPane>
+</AnchorPane>
+
+
+
+<BorderPane fx:id="borderPane_maze" layoutX="333.0" layoutY="160.0" prefHeight="200.0" prefWidth="200.0">
+<center>
+    <Pane BorderPane.alignment="CENTER">
+        <children>
+            <MazeDisplayer fx:id="MazeDisplayer" height="400.0" width="400.0"/>
+        </children>
+        <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+        </padding>
+    </Pane>
+</center>
+</BorderPane>

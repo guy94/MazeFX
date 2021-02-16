@@ -1,0 +1,62 @@
+.root{
+    -fx-background-color: 	#483D8B;
+}
+
+Button {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(darkred, orangered);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+Button:hover{
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em; /* 4 8 4 8 */
+    -fx-text-fill: -fx-text-base-color;
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+}
+
+
+.menu-bar{
+    -fx-background-color: linear-gradient(midnightblue, #9456d1);
+    -fx-border-color:  black;
+    -fx-border-width: 1
+
+}
+
+.menu-bar .label {
+    -fx-font-size: 12 pt;
+    -fx-font-family: Consolas;
+    -fx-font-weight: 800;
+    -fx-text-fill: black;
+
+}
+
+.menu:hover {
+    -fx-background-color: black;
+}
+
+.menu .label{     -fx-text-fill: gainsboro;}
+
+.menu-item {
+    -fx-background-color: linear-gradient(midnightblue, #9456d1);;
+    -fx-text-fill: black;
+}
+
+.menu-item:hover {
+    -fx-background-color: black;
+}
+
+.text-field {
+    -fx-background-color: linear-gradient(#d2aef5 , #86c2c4);
+    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+}
+
+.text-field:focused {
+    -fx-background-color: #a9a9a9 , white , white;
+    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+}

@@ -1,0 +1,334 @@
+2020.06.22 19:00:43.074 ERROR Model.MyModel - error2
+2020.06.22 19:07:33.286 ERROR Model.MyModel - error2
+2020.06.22 19:12:25.553 ERROR Model.MyModel - error2
+2020.06.22 19:12:32.114 ERROR Model.MyModel - error2
+2020.06.22 21:48:50.212 ERROR Model.MyModel - error2
+2020.06.22 21:51:11.574 ERROR Model.MyModel - error2
+2020.06.22 21:53:23.736 ERROR Model.MyModel - error2
+2020.06.22 22:17:21.128 ERROR Model.MyModel - error2
+2020.06.22 22:39:37.224 INFO  Model.MyModel - Player generated a maze
+2020.06.22 22:39:37.229 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.23 10:34:33.700 INFO  Model.MyModel - Player generated a maze
+2020.06.23 10:34:33.703 INFO  Model.MyModel - Maze size: 5, 5
+2020.06.23 10:34:47.133 INFO  Model.MyModel - Player generated a maze
+2020.06.23 10:34:47.134 INFO  Model.MyModel - Maze size: 5, 5
+2020.06.23 10:35:23.656 INFO  Model.MyModel - Player asked server to solve the maze
+2020.06.23 10:35:23.668 INFO  Model.MyModel - Maze Is Solved
+2020.06.23 10:37:13.022 INFO  Model.MyModel - Player generated a maze
+2020.06.23 10:37:13.025 INFO  Model.MyModel - Maze size: 4, 4
+2020.06.23 10:37:21.283 INFO  Model.MyModel - Player asked server to solve the maze
+2020.06.23 10:37:21.296 INFO  Model.MyModel - Maze Is Solved
+2020.06.23 10:43:44.830 INFO  Model.MyModel - Player generated a maze
+2020.06.23 10:43:44.835 INFO  Model.MyModel - Maze size: 4, 4
+2020.06.23 10:43:47.337 INFO  Model.MyModel - Player asked server to solve the maze
+2020.06.23 10:43:47.348 INFO  Model.MyModel - Maze Is Solved
+2020.06.23 10:44:58.655 INFO  Model.MyModel - Player generated a maze
+2020.06.23 10:44:58.660 INFO  Model.MyModel - Maze size: 4, 4
+2020.06.23 10:45:00.884 INFO  Model.MyModel - Player asked server to solve the maze
+2020.06.23 10:45:00.898 INFO  Model.MyModel - Maze Is Solved
+2020.06.23 11:00:54.788 INFO  Model.MyModel - Player generated a maze
+2020.06.23 11:00:54.793 INFO  Model.MyModel - Maze size: 4, 4
+2020.06.23 11:07:57.800 INFO  Model.MyModel - Player generated a maze
+2020.06.23 11:07:57.805 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.23 11:08:21.198 INFO  Model.MyModel - Player generated a maze
+2020.06.23 11:08:21.203 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.23 11:12:06.828 INFO  Model.MyModel - Player generated a maze
+2020.06.23 11:12:06.833 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.23 11:14:45.918 INFO  Model.MyModel - Player generated a maze
+2020.06.23 11:14:45.921 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.23 11:17:32.454 INFO  Model.MyModel - Player generated a maze
+2020.06.23 11:17:32.459 INFO  Model.MyModel - Maze size: 4, 4
+2020.06.23 11:33:08.358 INFO  Model.MyModel - Player generated a maze
+2020.06.23 11:33:08.363 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.23 11:33:55.637 INFO  Model.MyModel - Player generated a maze
+2020.06.23 11:33:55.641 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.23 11:37:37.723 INFO  Model.MyModel - Player generated a maze
+2020.06.23 11:37:37.729 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.23 11:38:04.795 INFO  Model.MyModel - Player generated a maze
+2020.06.23 11:38:04.800 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.23 11:39:04.226 INFO  Model.MyModel - Player generated a maze
+2020.06.23 11:39:04.232 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.23 11:42:48.916 INFO  Model.MyModel - Player generated a maze
+2020.06.23 11:42:48.919 INFO  Model.MyModel - Maze size: 5, 5
+2020.06.23 11:43:14.313 INFO  Model.MyModel - Player asked server to solve the maze
+2020.06.23 11:43:14.341 INFO  Model.MyModel - Maze Is Solved
+2020.06.23 11:45:39.038 INFO  Model.MyModel - Player generated a maze
+2020.06.23 11:45:39.038 INFO  Model.MyModel - Maze size: 50, 30
+2020.06.23 11:45:42.909 INFO  Model.MyModel - Player asked server to solve the maze
+2020.06.23 11:45:42.945 INFO  Model.MyModel - Maze Is Solved
+2020.06.23 11:47:07.857 INFO  Model.MyModel - Player generated a maze
+2020.06.23 11:47:07.857 INFO  Model.MyModel - Maze size: 4, 4
+2020.06.23 12:44:58.671 INFO  Model.MyModel - Player generated a maze
+2020.06.23 12:44:58.677 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.23 12:45:08.265 INFO  Model.MyModel - Player generated a maze
+2020.06.23 12:45:08.266 INFO  Model.MyModel - Maze size: 4, 4
+2020.06.23 12:46:10.748 INFO  Model.MyModel - Player generated a maze
+2020.06.23 12:46:10.754 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.23 12:46:23.584 INFO  Model.MyModel - Player generated a maze
+2020.06.23 12:46:23.584 INFO  Model.MyModel - Maze size: 5, 5
+2020.06.23 12:49:18.419 INFO  Model.MyModel - Player generated a maze
+2020.06.23 12:49:18.424 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.23 12:50:09.879 INFO  Model.MyModel - Player generated a maze
+2020.06.23 12:50:09.884 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.23 12:50:21.107 INFO  Model.MyModel - Player generated a maze
+2020.06.23 12:50:21.108 INFO  Model.MyModel - Maze size: 5, 5
+2020.06.23 12:50:40.135 INFO  Model.MyModel - Player generated a maze
+2020.06.23 12:50:40.135 INFO  Model.MyModel - Maze size: 5, 5
+2020.06.23 12:52:51.810 INFO  Model.MyModel - Player generated a maze
+2020.06.23 12:52:51.815 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.23 12:53:01.193 INFO  Model.MyModel - Player generated a maze
+2020.06.23 12:53:01.194 INFO  Model.MyModel - Maze size: 7, 7
+2020.06.23 12:53:34.243 INFO  Model.MyModel - Player generated a maze
+2020.06.23 12:53:34.248 INFO  Model.MyModel - Maze size: 2, 2
+2020.06.23 12:53:42.120 INFO  Model.MyModel - Player generated a maze
+2020.06.23 12:53:42.120 INFO  Model.MyModel - Maze size: 2, 2
+2020.06.23 12:57:03.459 INFO  Model.MyModel - Player generated a maze
+2020.06.23 12:57:03.462 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.23 12:57:06.927 INFO  Model.MyModel - Player generated a maze
+2020.06.23 12:57:06.928 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.23 12:57:18.160 INFO  Model.MyModel - Player generated a maze
+2020.06.23 12:57:18.160 INFO  Model.MyModel - Maze size: 5, 5
+2020.06.23 12:58:05.601 INFO  Model.MyModel - Player asked server to solve the maze
+2020.06.23 12:58:05.616 INFO  Model.MyModel - Maze Is Solved
+2020.06.23 12:58:30.459 INFO  Model.MyModel - Player generated a maze
+2020.06.23 12:58:30.466 INFO  Model.MyModel - Maze size: 2, 2
+2020.06.23 12:59:16.719 INFO  Model.MyModel - Player asked server to solve the maze
+2020.06.23 12:59:16.731 INFO  Model.MyModel - Maze Is Solved
+2020.06.23 12:59:27.323 INFO  Model.MyModel - Player generated a maze
+2020.06.23 12:59:27.324 INFO  Model.MyModel - Maze size: 2, 2
+2020.06.23 13:00:04.748 INFO  Model.MyModel - Player asked server to solve the maze
+2020.06.23 13:00:04.752 INFO  Model.MyModel - Maze Is Solved
+2020.06.23 13:00:40.749 INFO  Model.MyModel - Player generated a maze
+2020.06.23 13:00:40.753 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.23 13:02:11.751 INFO  Model.MyModel - Player generated a maze
+2020.06.23 13:02:11.755 INFO  Model.MyModel - Maze size: 2, 2
+2020.06.23 13:02:39.192 INFO  Model.MyModel - Player generated a maze
+2020.06.23 13:02:39.192 INFO  Model.MyModel - Maze size: 2, 2
+2020.06.23 13:04:21.440 INFO  Model.MyModel - Player generated a maze
+2020.06.23 13:04:21.443 INFO  Model.MyModel - Maze size: 1, 1
+2020.06.23 13:04:27.030 INFO  Model.MyModel - Player generated a maze
+2020.06.23 13:04:27.030 INFO  Model.MyModel - Maze size: 2, 2
+2020.06.23 13:08:53.618 INFO  Model.MyModel - Player generated a maze
+2020.06.23 13:08:53.624 INFO  Model.MyModel - Maze size: 2, 2
+2020.06.23 13:10:00.283 INFO  Model.MyModel - Player generated a maze
+2020.06.23 13:10:00.283 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.23 13:11:57.985 INFO  Model.MyModel - Player generated a maze
+2020.06.23 13:11:57.990 INFO  Model.MyModel - Maze size: 2, 2
+2020.06.23 13:12:12.154 INFO  Model.MyModel - Player generated a maze
+2020.06.23 13:12:12.154 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.23 13:14:03.061 INFO  Model.MyModel - Player generated a maze
+2020.06.23 13:14:03.064 INFO  Model.MyModel - Maze size: 2, 2
+2020.06.23 13:15:17.647 INFO  Model.MyModel - Player generated a maze
+2020.06.23 13:15:17.650 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.23 13:16:12.533 INFO  Model.MyModel - Player generated a maze
+2020.06.23 13:16:12.538 INFO  Model.MyModel - Maze size: 2, 2
+2020.06.23 13:17:29.916 INFO  Model.MyModel - Player generated a maze
+2020.06.23 13:17:29.916 INFO  Model.MyModel - Maze size: 2, 2
+2020.06.23 13:18:30.404 INFO  Model.MyModel - Player generated a maze
+2020.06.23 13:18:30.408 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.23 13:19:57.084 INFO  Model.MyModel - Player generated a maze
+2020.06.23 13:19:57.087 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.23 13:20:21.707 INFO  Model.MyModel - Player generated a maze
+2020.06.23 13:20:21.707 INFO  Model.MyModel - Maze size: 4, 4
+2020.06.23 13:20:38.800 INFO  Model.MyModel - Player generated a maze
+2020.06.23 13:20:38.800 INFO  Model.MyModel - Maze size: 4, 4
+2020.06.23 13:20:50.939 INFO  Model.MyModel - Player generated a maze
+2020.06.23 13:20:50.939 INFO  Model.MyModel - Maze size: 4, 4
+2020.06.23 13:21:38.929 INFO  Model.MyModel - Player asked server to solve the maze
+2020.06.23 13:21:38.943 INFO  Model.MyModel - Maze Is Solved
+2020.06.23 16:13:18.736 INFO  Model.MyModel - Player generated a maze
+2020.06.23 16:13:18.740 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.23 18:23:06.886 INFO  Model.MyModel - Player generated a maze
+2020.06.23 18:23:06.890 INFO  Model.MyModel - Maze size: 5, 5
+2020.06.23 18:23:11.938 INFO  Model.MyModel - Player asked server to solve the maze
+2020.06.23 18:23:11.950 INFO  Model.MyModel - Maze Is Solved
+2020.06.23 19:35:31.837 INFO  Model.MyModel - Player generated a maze
+2020.06.23 19:35:31.855 INFO  Model.MyModel - Maze size: 4, 6
+2020.06.23 19:36:25.522 INFO  Model.MyModel - Player asked server to solve the maze
+2020.06.23 19:36:25.573 INFO  Model.MyModel - Maze Is Solved
+2020.06.24 19:17:58.402 INFO  Model.MyModel - Player generated a maze
+2020.06.24 19:17:58.409 INFO  Model.MyModel - Maze size: 5, 5
+2020.06.24 19:19:21.306 INFO  Model.MyModel - Player generated a maze
+2020.06.24 19:19:21.311 INFO  Model.MyModel - Maze size: 33, 3
+2020.06.24 19:22:15.864 INFO  Model.MyModel - Player generated a maze
+2020.06.24 19:22:15.869 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.24 19:24:16.594 INFO  Model.MyModel - Player generated a maze
+2020.06.24 19:24:16.599 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.24 19:36:57.018 INFO  Model.MyModel - Player started a game.
+2020.06.24 19:37:03.937 INFO  Model.MyModel - Player generated a maze
+2020.06.24 19:37:03.938 INFO  Model.MyModel - Maze size: 4, 4
+2020.06.24 19:37:09.362 INFO  Model.MyModel - Player asked server to solve the maze
+2020.06.24 19:37:09.383 INFO  Model.MyModel - Maze Is Solved
+2020.06.24 19:38:35.992 INFO  Model.MyModel - Player started a game.
+2020.06.24 19:38:41.873 INFO  Model.MyModel - Player generated a maze
+2020.06.24 19:38:41.874 INFO  Model.MyModel - Maze size: 4, 4
+2020.06.24 19:38:44.678 INFO  Model.MyModel - Player asked server to solve the maze
+2020.06.24 19:38:44.692 INFO  Model.MyModel - Maze Is Solved
+2020.06.24 19:39:10.629 INFO  Model.MyModel - Player asked server to solve the maze
+2020.06.24 19:39:10.633 INFO  Model.MyModel - Maze Is Solved
+2020.06.24 19:43:44.557 INFO  Model.MyModel - Player started a game.
+2020.06.24 19:43:45.758 INFO  Model.MyModel - Player started a game.
+2020.06.24 19:45:48.182 INFO  Model.MyModel - Player started a game.
+2020.06.24 19:46:04.285 INFO  Model.MyModel - Player generated a maze
+2020.06.24 19:46:04.285 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.24 19:46:45.846 INFO  Model.MyModel - Player started a game.
+2020.06.24 19:47:44.933 INFO  Model.MyModel - Player started a game.
+2020.06.24 19:47:51.123 INFO  Model.MyModel - Player started a game.
+2020.06.24 19:49:27.973 INFO  Model.MyModel - Player started a game.
+2020.06.24 19:50:05.879 INFO  Model.MyModel - Player started a game.
+2020.06.24 19:52:35.182 INFO  Model.MyModel - Player started a game.
+2020.06.24 19:53:34.529 INFO  Model.MyModel - Player started a game.
+2020.06.24 19:59:08.226 INFO  Model.MyModel - Player started a game.
+2020.06.24 19:59:16.049 INFO  Model.MyModel - Player generated a maze
+2020.06.24 19:59:16.050 INFO  Model.MyModel - Maze size: 33, 3
+2020.06.24 19:59:55.909 INFO  Model.MyModel - Player generated a maze
+2020.06.24 19:59:55.909 INFO  Model.MyModel - Maze size: 5, 3
+2020.06.24 20:01:46.261 INFO  Model.MyModel - Player started a game.
+2020.06.24 20:01:52.399 INFO  Model.MyModel - Player generated a maze
+2020.06.24 20:01:52.400 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.24 20:03:30.593 INFO  Model.MyModel - Player started a game.
+2020.06.24 20:03:38.263 INFO  Model.MyModel - Player generated a maze
+2020.06.24 20:03:38.263 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.24 20:05:42.279 INFO  Model.MyModel - Player started a game.
+2020.06.24 20:05:47.934 INFO  Model.MyModel - Player generated a maze
+2020.06.24 20:05:47.935 INFO  Model.MyModel - Maze size: 2, 2
+2020.06.24 20:07:00.345 INFO  Model.MyModel - Player generated a maze
+2020.06.24 20:07:00.346 INFO  Model.MyModel - Maze size: 2, 2
+2020.06.24 20:07:52.146 INFO  Model.MyModel - Player started a game.
+2020.06.24 20:08:52.157 INFO  Model.MyModel - Player started a game.
+2020.06.24 20:08:58.296 INFO  Model.MyModel - Player generated a maze
+2020.06.24 20:08:58.296 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.24 20:09:23.148 INFO  Model.MyModel - Player generated a maze
+2020.06.24 20:09:23.149 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.24 20:09:25.782 INFO  Model.MyModel - Player asked server to solve the maze
+2020.06.24 20:09:25.799 INFO  Model.MyModel - Maze Is Solved
+2020.06.24 20:11:50.112 INFO  Model.MyModel - Player started a game.
+2020.06.24 20:21:26.802 INFO  Model.MyModel - Player started a game.
+2020.06.24 20:44:43.940 INFO  Model.MyModel - Player started a game.
+2020.06.24 20:46:30.171 INFO  Model.MyModel - Player started a game.
+2020.06.24 22:18:53.526 INFO  Model.MyModel - Player started a game.
+2020.06.24 22:20:24.873 INFO  Model.MyModel - Player started a game.
+2020.06.24 22:20:48.466 INFO  Model.MyModel - Player generated a maze
+2020.06.24 22:20:48.466 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.24 22:22:41.647 INFO  Model.MyModel - Player started a game.
+2020.06.24 22:22:53.413 INFO  Model.MyModel - Player generated a maze
+2020.06.24 22:22:53.413 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.24 22:23:04.773 INFO  Model.MyModel - Player asked server to solve the maze
+2020.06.24 22:23:04.803 INFO  Model.MyModel - Maze Is Solved
+2020.06.25 09:44:47.347 INFO  Model.MyModel - Player started a game.
+2020.06.25 09:45:44.731 INFO  Model.MyModel - Player generated a maze
+2020.06.25 09:45:44.732 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.25 09:46:15.972 INFO  Model.MyModel - Player asked server to solve the maze
+2020.06.25 09:46:15.995 INFO  Model.MyModel - Maze Is Solved
+2020.06.25 09:46:43.010 INFO  Model.MyModel - Player generated a maze
+2020.06.25 09:46:43.011 INFO  Model.MyModel - Maze size: 5, 5
+2020.06.25 09:47:09.829 INFO  Model.MyModel - Player asked server to solve the maze
+2020.06.25 09:47:09.840 INFO  Model.MyModel - Maze Is Solved
+2020.06.25 09:47:40.714 INFO  Model.MyModel - Player generated a maze
+2020.06.25 09:47:40.716 INFO  Model.MyModel - Maze size: 5, 5
+2020.06.25 09:47:51.488 INFO  Model.MyModel - Player generated a maze
+2020.06.25 09:47:51.489 INFO  Model.MyModel - Maze size: 5, 5
+2020.06.25 09:48:14.405 INFO  Model.MyModel - Player asked server to solve the maze
+2020.06.25 09:48:14.417 INFO  Model.MyModel - Maze Is Solved
+2020.06.25 09:48:43.496 INFO  Model.MyModel - Player generated a maze
+2020.06.25 09:48:43.497 INFO  Model.MyModel - Maze size: 5, 5
+2020.06.25 09:50:09.196 INFO  Model.MyModel - Player generated a maze
+2020.06.25 09:50:09.196 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.25 09:53:22.063 INFO  Model.MyModel - Player started a game.
+2020.06.25 09:53:32.460 INFO  Model.MyModel - Player generated a maze
+2020.06.25 09:53:32.461 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.25 09:53:46.524 INFO  Model.MyModel - Player generated a maze
+2020.06.25 09:53:46.524 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.25 09:53:52.092 INFO  Model.MyModel - Player asked server to solve the maze
+2020.06.25 09:53:52.109 INFO  Model.MyModel - Maze Is Solved
+2020.06.25 10:04:48.785 INFO  Model.MyModel - Player started a game.
+2020.06.25 10:04:57.299 INFO  Model.MyModel - Player generated a maze
+2020.06.25 10:04:57.299 INFO  Model.MyModel - Maze size: 4, 4
+2020.06.25 10:05:12.154 INFO  Model.MyModel - Player generated a maze
+2020.06.25 10:05:12.154 INFO  Model.MyModel - Maze size: 10, 10
+2020.06.25 10:07:43.696 INFO  Model.MyModel - Player started a game.
+2020.06.25 10:07:51.471 INFO  Model.MyModel - Player generated a maze
+2020.06.25 10:07:51.471 INFO  Model.MyModel - Maze size: 4, 4
+2020.06.25 10:08:00.557 INFO  Model.MyModel - Player generated a maze
+2020.06.25 10:08:00.557 INFO  Model.MyModel - Maze size: 7, 7
+2020.06.25 10:08:58.786 INFO  Model.MyModel - Player generated a maze
+2020.06.25 10:08:58.786 INFO  Model.MyModel - Maze size: 100, 100
+2020.06.25 10:09:44.142 INFO  Model.MyModel - Player asked server to solve the maze
+2020.06.25 10:09:44.260 INFO  Model.MyModel - Maze Is Solved
+2020.06.25 10:09:59.283 INFO  Model.MyModel - Player started a game.
+2020.06.25 10:10:07.831 INFO  Model.MyModel - Player generated a maze
+2020.06.25 10:10:07.832 INFO  Model.MyModel - Maze size: 100, 100
+2020.06.25 10:10:10.308 INFO  Model.MyModel - Player asked server to solve the maze
+2020.06.25 10:10:10.439 INFO  Model.MyModel - Maze Is Solved
+2020.06.25 10:10:23.085 INFO  Model.MyModel - Player generated a maze
+2020.06.25 10:10:23.085 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.25 10:11:00.744 INFO  Model.MyModel - Player generated a maze
+2020.06.25 10:11:00.744 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.25 10:14:37.227 INFO  Model.MyModel - Player started a game.
+2020.06.25 10:14:47.497 INFO  Model.MyModel - Player started a game.
+2020.06.25 10:17:12.198 INFO  Model.MyModel - Player started a game.
+2020.06.25 10:17:53.847 INFO  Model.MyModel - Player generated a maze
+2020.06.25 10:17:53.848 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.25 10:17:57.584 INFO  Model.MyModel - Player asked server to solve the maze
+2020.06.25 10:17:57.598 INFO  Model.MyModel - Maze Is Solved
+2020.06.25 10:18:23.116 INFO  Model.MyModel - Player generated a maze
+2020.06.25 10:18:23.117 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.25 10:18:44.942 INFO  Model.MyModel - Player generated a maze
+2020.06.25 10:18:44.943 INFO  Model.MyModel - Maze size: 6, 6
+2020.06.25 10:18:54.562 INFO  Model.MyModel - Player asked server to solve the maze
+2020.06.25 10:18:54.570 INFO  Model.MyModel - Maze Is Solved
+2020.06.25 10:19:43.706 INFO  Model.MyModel - Player generated a maze
+2020.06.25 10:19:43.706 INFO  Model.MyModel - Maze size: 6, 6
+2020.06.25 10:27:08.585 INFO  Model.MyModel - Player started a game.
+2020.06.25 10:27:16.812 INFO  Model.MyModel - Player generated a maze
+2020.06.25 10:27:16.813 INFO  Model.MyModel - Maze size: 2, 2
+2020.06.25 10:27:57.015 INFO  Model.MyModel - Player started a game.
+2020.06.25 10:28:04.632 INFO  Model.MyModel - Player generated a maze
+2020.06.25 10:28:04.632 INFO  Model.MyModel - Maze size: 2, 2
+2020.06.25 10:29:04.982 INFO  Model.MyModel - Player started a game.
+2020.06.25 10:29:10.638 INFO  Model.MyModel - Player generated a maze
+2020.06.25 10:29:10.638 INFO  Model.MyModel - Maze size: 2, 2
+2020.06.25 10:29:20.430 INFO  Model.MyModel - Player generated a maze
+2020.06.25 10:29:20.430 INFO  Model.MyModel - Maze size: 4, 4
+2020.06.25 10:32:39.886 INFO  Model.MyModel - Player started a game.
+2020.06.25 10:32:46.203 INFO  Model.MyModel - Player generated a maze
+2020.06.25 10:32:46.203 INFO  Model.MyModel - Maze size: 2, 2
+2020.06.25 10:32:52.157 INFO  Model.MyModel - Player generated a maze
+2020.06.25 10:32:52.158 INFO  Model.MyModel - Maze size: 4, 4
+2020.06.25 10:33:19.733 INFO  Model.MyModel - Player generated a maze
+2020.06.25 10:33:19.733 INFO  Model.MyModel - Maze size: 6, 6
+2020.06.25 10:33:22.165 INFO  Model.MyModel - Player asked server to solve the maze
+2020.06.25 10:33:22.181 INFO  Model.MyModel - Maze Is Solved
+2020.06.25 10:39:05.057 INFO  Model.MyModel - Player started a game.
+2020.06.25 10:39:11.687 INFO  Model.MyModel - Player generated a maze
+2020.06.25 10:39:11.688 INFO  Model.MyModel - Maze size: 3, 3
+2020.06.25 10:39:16.433 INFO  Model.MyModel - Player asked server to solve the maze
+2020.06.25 10:39:16.445 INFO  Model.MyModel - Maze Is Solved
+2020.07.02 13:09:26.233 INFO  Model.MyModel - Player started a game.
+2020.07.02 13:10:35.251 INFO  Model.MyModel - Player generated a maze
+2020.07.02 13:10:35.251 INFO  Model.MyModel - Maze size: 3, 3
+2020.07.02 13:11:35.708 INFO  Model.MyModel - Player asked server to solve the maze
+2020.07.02 13:11:35.736 INFO  Model.MyModel - Maze Is Solved
+2020.07.02 13:12:17.366 INFO  Model.MyModel - Player generated a maze
+2020.07.02 13:12:17.366 INFO  Model.MyModel - Maze size: 3, 3
+2020.08.29 11:52:09.720 INFO  Model.MyModel - Player started a game.
+2020.08.29 11:53:17.333 INFO  Model.MyModel - Player generated a maze
+2020.08.29 11:53:17.334 INFO  Model.MyModel - Maze size: 5, 4
+2020.08.29 11:54:47.160 INFO  Model.MyModel - Player generated a maze
+2020.08.29 11:54:47.160 INFO  Model.MyModel - Maze size: 4, 4
+2020.08.29 11:56:05.960 INFO  Model.MyModel - Player generated a maze
+2020.08.29 11:56:05.960 INFO  Model.MyModel - Maze size: 4, 4
+2020.08.29 11:56:39.028 INFO  Model.MyModel - Player generated a maze
+2020.08.29 11:56:39.028 INFO  Model.MyModel - Maze size: 100, 100
+2020.08.29 11:58:53.215 INFO  Model.MyModel - Player asked server to solve the maze
+2020.08.29 11:58:53.298 INFO  Model.MyModel - Maze Is Solved
+2021.02.16 13:57:51.707 INFO  Model.MyModel - Player started a game.
+2021.02.16 13:58:04.441 INFO  Model.MyModel - Player generated a maze
+2021.02.16 13:58:04.442 INFO  Model.MyModel - Maze size: 5, 5
+2021.02.16 13:58:18.670 INFO  Model.MyModel - Player asked server to solve the maze
+2021.02.16 13:58:18.685 INFO  Model.MyModel - Maze Is Solved
+2021.02.16 14:52:05.747 INFO  Model.MyModel - Player started a game.
+2021.02.16 14:57:47.805 INFO  Model.MyModel - Player started a game.
+2021.02.16 14:58:06.015 INFO  Model.MyModel - Player started a game.
+2021.02.16 14:58:28.771 INFO  Model.MyModel - Player started a game.
+2021.02.16 14:59:38.928 INFO  Model.MyModel - Player started a game.

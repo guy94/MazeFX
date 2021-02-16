@@ -1,0 +1,5 @@
+.bodybg{
+    -fx-background-image: url("help1.png");
+    -fx-background-size: 100% 100%;
+    -fx-opacity: 1;
+}
